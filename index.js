@@ -1,7 +1,6 @@
-const prompt = require('prompt-sync')()
 // Task 1
-// Define a function that makes the API call to the request URL you defined in the worksheet (to get 3 dog artworks)
-// Make sure to console log all 3 titles 
+// Define a function called getDogArtworks that makes the API call to the request URL you defined in the worksheet (to get 3 dog artworks)
+// Make sure to console log all 3 titles (after you get the data retrieve the nested values) 
 
 
 
@@ -9,14 +8,15 @@ const prompt = require('prompt-sync')()
 
 
 // Task 2
-// Define another function that takes in a search query and a size limit
-// Copy the function above and modify it to make the API call with the function parameters instead
+// Define another function called searchArtworks that takes in a search query and a size limit
+// You can use the function above and modify it to make the API call with the function parameters instead
+// You will need to use string concatenation to build the request URL
+// Now when the function it's called it should only return artwork the specified # of artworks based on the inputed search query
+// Make sure to console log the values. 
 
 
 
 
-// Test this function by prompting the user to enter a query and size limit (two separate prompts)
-// Example on how to use prompt: let person = prompt("Please enter your name")
+// Call the new function with the user inputs and confirm it worked correctly 
+// Test with anything you'd like like 5 "cats" or 2 "flowers"
 
-
-// Call the new function with the user inputs and confirm it worked correctly
